@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jishan Khan | Portfolio</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+      background-color: darkgreen;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background: #007bff;
+      color: white;
+      padding: 0.5rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar-container {
+      display: flex;
+      justify-content: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .navbar-container a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1rem;
+    }
+
+    .navbar-container a:hover {
+      text-decoration: underline;
+    }
+
+    /* Header Section */
+    header {
+      background: #f4f4f4;
+      padding: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #ccc;
+      max-width: 800px;
+      margin: 1rem auto;
+      box-shadow: 0px 4px 8px rgba(251, 106, 106, 0.1);
+      flex-direction: column;
+      border-radius: 10px;
+      background-color: cyan;
+    }
+
+    .header-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .header-image {
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 10px;
+      font-weight: bold;
+      margin-right: 20px;
+    }
+    .header-image img{
+      border-radius: 8px;
+      box-shadow: 0px 4px 8px rgba(9, 11, 6, 0.1);
+    }
+    .header-text {
+      text-align: left;
+      
+    }
+
+    .header-text h1 {
+      margin: 0;
+      font-size: 40px;
+      color: rgb(219, 73, 219);
+      font-weight: bold;
+    }
+
+    .header-text p {
+      margin: 0.5rem 0;
+      font-size: 1rem;
+    }
+
+    .about-paragraph {
+      text-align: center;
+      margin-top: 1.5rem;
+      border: 2px solid black;
+      border-radius: 10px;
+      width: auto;
+      height: auto;
+      padding: 20px;
+      font-size: 18px;
+      color: white;
+      background-color: #666;
+      box-shadow: 0px 4px 8px rgba(9, 11, 6, 0.1);
+    }
+
+    /* Skills Section */
+    .skills {
+      display: flex;
+      justify-content: space-around;
+      margin: 2rem auto;
+      max-width: 800px;
+    }
+
+    .skill-box {
+      background: black;
+      color: white;
+      width: 120px;
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1rem;
+      border-radius: 8px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    /* Section Styles */
+    section {
+      padding: 2rem;
+      margin: 0 auto;
+      max-width: 800px;
+    }
+
+    section h2 {
+      color: #007bff;
+      border-bottom: 2px solid yellow;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      background: #f4f4f4;
+      padding: 1rem 0;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    .about h2 p{
+      border: 3px solid rgb(255, 255, 255);
+      height: auto;
+      width: auto;
+      border-radius: 8px;
+      background-color: rgb(244, 126, 217);
+      color: white;
+      box-shadow: 0px 4px 8px rgba(9, 11, 6, 0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="navbar-container">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header>
+    <div class="header-container">
+      <div class="header-image"  ><img src="image1.jpg" height="90px" width="auto" alt=""></div>
+      <div class="header-text">
+        <h1>I am Jishan</h1>
+        <p>Full-Stack Developer (MERN Stack)</p>
+      </div>
+    </div>
+    <p class="about-paragraph">
+      I am a passionate Full-Stack Developer with expertise in the MERN (MongoDB, Express.js, React.js, Node.js) stack. I enjoy building efficient, scalable web applications. 
+    </p>
+  </header>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill-box">C++</div>
+      <div class="skill-box">JavaScript</div>
+      <div class="skill-box">HTML</div>
+      <div class="skill-box">CSS</div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate Full-Stack Developer with expertise in the MERN (MongoDB, Express.js, React.js, Node.js) stack. I enjoy building efficient, scalable web applications. I also have basic knowledge of MS Office tools, making me versatile in handling general office tasks.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>If you'd like to get in touch, feel free to reach out:</p>
+    <a href="mailto:jishan.khan@example.com">jishan.khan@example.com</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Jishan Khan. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
